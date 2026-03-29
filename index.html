@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube Magic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <header>
+        <h1 class="magic-title">Cube Magic</h1>
+        <p class="subtitle">Swipe to rotate. Double-click the cube to vanish it.</p>
+    </header>
+
+    <div class="side-text left-side">
+        This is to view and analysis the concept of 3D
+    </div>
+
+    <div class="side-text right-side">
+        <h3 class="side-heading">Immersive Reality</h3>
+        <p>Experience depth like never before.</p>
+        <p>Our interactive 3D Cube Viewer provides a seamless, high-fidelity environment to inspect designs from every angle.</p>
+        <p>Built with precision and optimized for performance, it turns static concepts into immersive digital realities.</p>
+    </div>
+
+    <main class="scene" id="scene">
+        <div class="floor"></div>
+        <div class="cube" id="cube">
+            <div class="cube-face front"></div>
+            <div class="cube-face back"></div>
+            <div class="cube-face right"></div>
+            <div class="cube-face left"></div>
+            <div class="cube-face top"></div>
+            <div class="cube-face bottom"></div>
+        </div>
+    </main>
+
+    <div class="summon-wrapper" id="summon-wrapper" style="display: none;">
+        <button class="summon-btn" id="summon-btn">
+            <span class="btn-text">Summon Cube</span>
+            <div class="btn-glow"></div>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
