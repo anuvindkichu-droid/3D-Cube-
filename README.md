@@ -2,6 +2,10 @@
 
 > "Experience depth like never before. Our interactive 3D Cube Viewer provides a seamless, high-fidelity environment to inspect designs from every angle. Built with precision and optimized for performance, it turns static concepts into immersive digital realities."
 
+## 🚀 Live Demonstration
+Play with the immersive 3D viewer directly in your browser:  
+**👉 [Experience Cube Magic Live](https://anuvindkichu-droid.github.io/3D-Cube-/)**
+
 ## Overview
 
 Cube Magic is a premium, highly-interactive web application built entirely with Vanilla HTTP, CSS, and JavaScript. It features a rich 3D-rendered glassmorphic floating cube that users can smoothly rotate and effortlessly interact with on both desktop and mobile devices.
